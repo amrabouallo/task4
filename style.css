@@ -1,0 +1,542 @@
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        *{font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+        body{
+            font-family: 'Rubik' sans-serif;
+            font: 16px;
+            font-weight: 400;
+            line-height: 1.4;
+            color: var(--dark-color);
+            background-color: var(--white-color);
+        }
+        a{
+            text-decoration: none;
+            color: inherit;
+            -webkit-tap-highlight-color: transparent;
+        }
+        ul{
+            list-style: none;
+
+        }
+        img{
+            width: 50%;
+            vertical-align: 
+        }
+        strong{
+            font-weight: var(--fw8);
+
+        }
+        table{
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+        input::placeholder{
+            font: inherit;
+        }
+        .flexitem {
+            display: flex;
+            align-items: center;
+
+        }
+        @media screen and (main-width: 992px){
+            .container {
+                padding: 0 2em;
+            }
+        }
+            
+        .main-links a:hover {
+            color: var(--secondary-color);
+        }
+        .second-links a:hover {
+            color: var(--light-text-color);
+        }
+        .icon-small, .icon-large {
+            display: flex;
+            align-items: center;
+            padding: 0 0.25em;
+            font-weight: normal;
+        }
+        .icon-small {
+            font-size: 1.25em;
+            margin: auto;
+        }
+        .icon-large {
+            font-size: 1.75em;
+            padding: 0 0.75em 0 0;
+        }
+
+        header li > a {
+            display: flex;
+            position: relative;
+            line-height: inherit;
+        }
+        .header-top .wrapper {
+            font-size: var(--font-small);
+            font-weight: var(--fw3);
+            justify-content: space-between;
+            line-height: 42px;
+        }
+        .header-top .wrapper ul {
+            gap: 2em;
+        }
+        .header-top li {
+            position: relative;
+            padding: 0 20px 0 20px;
+            float: right;
+            font-weight: 600;
+        }
+        .header-top ul ul {
+            position: absolute;
+            left: -1em;
+            line-height: 2em;
+            background-color: var(--white-color);
+            border: 1px solid var(--border-color);
+            z-index: 1;
+            display: none;
+        }
+        .header-top .left li a {
+            font-weight: 600;
+            float: left;
+            color: red;
+        }
+        .header-top .left li a:hover{
+            color: violet;
+        }
+        .header-top .right li a {
+            float: right;
+        }
+        .header-top .right li a:hover{
+            color: turquoise;
+        }
+        .header-top .right ul ul li a {
+            padding:  0 20px 0 20px;
+
+        }
+        .header-top .right ul ul li.current  a {
+            background-color: var(--border-color);
+        }
+        .header-top li:hover ul{
+            display: block;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 0.938em;
+        }
+        .flexwrap {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .flexcenter {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .detel {
+            float: right;
+            margin-right: 9%;
+            margin-top: 13%;
+        }
+        .detel h1{
+            font-size: 50px;
+            color: tomato;
+            margin-bottom:  20px;
+
+        }
+        .detel p {
+            color: violet;
+            line-height: 20px;
+        }
+        .detel a {
+            background: #212121;
+            padding: 10px 10px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #fff;
+            display: inline-block;
+            margin: 20px 0 ;
+            border-radius: 5px;
+        }
+        .images{
+            width: 50%;
+            height: 100%;
+            position: absolute;
+            bottom: 0;
+            left: 100%;
+        }
+        .images img {
+            height: 100%;
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+            transition: bottom 1s left 1s;
+        }
+        .images:hover .shape {
+            left: 40%;
+        }
+        .product img {
+            width: 20%;
+            height: 30%;
+            float: right;
+            padding:  25px  25px;
+            margi: 20px 10px;
+
+        .product p {
+            font-weight: 600;
+            display: inline-block;}
+
+        .section-p1 {
+            width: 50%;
+            height: 80%;
+            padding: 40px 80px;
+        }
+        #feature .fe-box{
+            width: 180px;
+            text-align: center;
+            padding: 25px 15px;
+        }
+        .uk-container>:last-child{
+            margin-bottom: 0;
+        }
+        .uk-grid {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        h1, h2, h3, h4, h5, h6, p, a, span, body, div, html, ion-button {
+            font-family: "DroidArabicKufi-Regular", sans-serif !important;
+            outline: none}
+            .ion-page {
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: flex;
+                position: absolute;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -webkit-flex-direction: column;
+                flex-direction: column;
+                -webkit-box-pack: justify;
+                -webkit-justify-content: space-between;
+                justify-content: space-between;
+                contain: layout size style;
+                overflow: hidden;
+                z-index: 0;
+            }
+ :root {
+                --ion-color-primary: linear-gradient(90deg,#935cae 0%,#6f42c1);
+                --ion-color-primary-rgb: 34,36,40;
+                --ion-color-primary-contrast: #fff;
+                --ion-color-primary-contrast-rgb: 255,255,255;
+                --ion-color-primary-shade: #1e2023;
+                --ion-color-primary-tint: #383a3e;
+                --ion-color-secondary: #3dc2ff;
+                --ion-color-secondary-rgb: 61,194,255;
+                --ion-color-secondary-contrast: #fff;
+                --ion-color-secondary-contrast-rgb: 255,255,255;
+                --ion-color-secondary-shade: #36abe0;
+                --ion-color-secondary-tint: #50c8ff;
+                --ion-color-tertiary: #5260ff;
+                --ion-color-tertiary-rgb: 82,96,255;
+                --ion-color-tertiary-contrast: #fff;
+                --ion-color-tertiary-contrast-rgb: 255,255,255;
+                --ion-color-tertiary-shade: #4854e0;
+                --ion-color-tertiary-tint: #6370ff;
+                --ion-color-success: #2dd36f;
+                --ion-color-success-rgb: 45,211,111;
+                --ion-color-success-contrast: #fff;
+                --ion-color-success-contrast-rgb: 255,255,255;
+                --ion-color-success-shade: #28ba62;
+                --ion-color-success-tint: #42d77d;
+                --ion-color-warning: #ffc409;
+                --ion-color-warning-rgb: 255,196,9;
+                --ion-color-warning-contrast: #000;
+                --ion-color-warning-contrast-rgb: 0,0,0;
+                --ion-color-warning-shade: #e0ac08;
+                --ion-color-warning-tint: #ffca22;
+                --ion-color-danger: #eb445a;
+                --ion-color-danger-rgb: 235,68,90;
+                --ion-color-danger-contrast: #fff;
+                --ion-color-danger-contrast-rgb: 255,255,255;
+                --ion-color-danger-shade: #cf3c4f;
+                --ion-color-danger-tint: #ed576b;
+                --ion-color-dark: #222428;
+                --ion-color-dark-rgb: 34,36,40;
+                --ion-color-dark-contrast: #fff;
+                --ion-color-dark-contrast-rgb: 255,255,255;
+                --ion-color-dark-shade: #1e2023;
+                --ion-color-dark-tint: #383a3e;
+                --ion-color-medium: #92949c;
+                --ion-color-medium-rgb: 146,148,156;
+                --ion-color-medium-contrast: #fff;
+                --ion-color-medium-contrast-rgb: 255,255,255;
+                --ion-color-medium-shade: #808289;
+                --ion-color-medium-tint: #9d9fa6;
+                --ion-color-light: #f4f5f8;
+                --ion-color-light-rgb: 244,245,248;
+            Show All Properties (5 more)
+            }
+            :root {
+                --blue: #935cae;
+                --indigo: #6610f2;
+                --purple: #6f42c1;
+                --pink: #e83e8c;
+                --red: #dc3545;
+                --orange: #f27510;
+                --yellow: #F49917;
+                --green: #23BF08;
+                --teal: #1CAF9A;
+                --cyan: #5B93D3;
+                --white: #fff;
+                --gray: #6c757d;
+                --gray-dark: #343a40;
+                --primary: #935cae;
+                --secondary: #6c757d;
+                --success: #23BF08;
+                --info: #5B93D3;
+                --warning: #F49917;
+                --danger: #dc3545;
+                --light: #f8f9fa;
+                --dark: #343a40;
+                --breakpoint-xs: 0;
+                --breakpoint-sm: 576px;
+                --breakpoint-md: 768px;
+                --breakpoint-lg: 992px;
+                --breakpoint-xl: 1200px;
+                --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+                --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+            }
+            html {
+                font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 1.5;
+                -webkit-text-size-adjust: 100%;
+                background: #fff;
+                color: #666;
+            }
+            .section-title, .sidebar-label, .slim-pagetitle, html, ion-button {
+                letter-spacing: -.5px!important;
+            }
+            html {
+                font-family: var(--ion-font-family);
+            }
+            html {
+                width: 100%;
+                height: 100%;
+                -webkit-text-size-adjust: 100%;
+                -moz-text-size-adjust: 100%;
+                -ms-text-size-adjust: 100%;
+                text-size-adjust: 100%;
+            }
+            @supports (padding-top:env(safe-area-inset-top))
+            html {
+                --ion-safe-area-top: env(safe-area-inset-top);
+                --ion-safe-area-bottom: env(safe-area-inset-bottom);
+                --ion-safe-area-left: env(safe-area-inset-left);
+                --ion-safe-area-right: env(safe-area-inset-right);
+            }
+            @supports (padding-top:20px)
+            html {
+                --ion-safe-area-top: var(--ion-statusbar-padding);
+            }}
+            html {
+                --ion-font-family: var(--ion-default-font);
+            }
+           
+        }
+            *, *::before, *::after {
+                box-sizing: border-box;
+            }
+            *, *::before, *::after {
+                box-sizing: border-box;
+            }
+            ::-webkit-scrollbar {
+                width: 0;
+                height: 7px;
+                background-color: #6f42c1;
+            }
+            ::-webkit-scrollbar-button {
+                width: 1px;
+                height: 0;
+            }
+            ::-webkit-scrollbar-corner {
+                background: transparent;
+            }
+            ::-webkit-scrollbar-thumb:active, ::-webkit-scrollbar-thumb:hover {
+                background: #6f42c1;
+            }
+            ::-webkit-scrollbar-thumb {
+                border-radius: 50px!important;
+                background: #6f42c1;
+                border: 0 none #6f42c1;
+                border-radius: 0;
+            }
+            ::-webkit-scrollbar-track:active, ::-webkit-scrollbar-track:hover {
+                background: transparent;
+            }
+            ::-webkit-scrollbar-track {
+                background: transparent;
+                border: 0 none #6f42c1;
+                border-radius: 50px;
+            }
+            ::selection {
+                background: #39f;
+                color: #fff;
+                text-shadow: none;
+            }
+            element.style {
+                height: 2386px;
+            }
+            .uk-container>:last-child {
+                margin-bottom: 0;
+            }
+            .uk-flex-wrap-top {
+                -webkit-align-content: flex-start;
+                align-content: flex-start;
+            }
+            .uk-flex-top {
+                -webkit-box-align: start;
+                -webkit-align-items: flex-start;
+                align-items: flex-start;
+            }
+            .uk-grid-column-small, .uk-grid-small {
+                margin-left: -15px;
+            }
+            .uk-grid {
+                margin-left: -30px;
+            }
+            .uk-grid {
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: flex;
+                -webkit-flex-wrap: wrap;
+                flex-wrap: wrap;
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+            h1, h2, h3, h4, h5, h6, p, a, span, body, div, html, ion-button {
+                font-family: "DroidArabicKufi-Regular", sans-serif !important;
+                outline: none !important;
+                nt: ;
+                */: ;
+            }
+            * {
+                box-sizing: border-box;
+                -webkit-tap-highlight-color: rgba(0,0,0,0);
+                -webkit-tap-highlight-color: transparent;
+                -webkit-touch-callout: none;
+            }
+            *, *::before, *::after {
+                box-sizing: border-box;
+            }
+            user agent stylesheet
+            div {
+                display: block;
+            }
+            .ion-page {
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                display: -webkit-box;
+                display: -webkit-flex;
+                display: flex;
+                position: absolute;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -webkit-flex-direction: column;
+                flex-direction: column;
+                -webkit-box-pack: justify;
+                -webkit-justify-content: space-between;
+                justify-content: space-between;
+                contain: layout size style;
+                overflow: hidden;
+                z-index: 0;
+            }
+            style attribute {
+                font-family: 'Droid Arabic Kufi';
+                text-align: right;
+                line-height: normal;
+            }
+            body {
+                -moz-osx-font-smoothing: grayscale;
+                -webkit-font-smoothing: antialiased;
+                margin-left: 0;
+                margin-right: 0;
+                margin-top: 0;
+                margin-bottom: 0;
+                padding-left: 0;
+                padding-right: 0;
+                padding-top: 0;
+                padding-bottom: 0;
+                position: fixed;
+                width: 100%;
+                max-width: 100%;
+                height: 100%;
+                max-height: 100%;
+                -webkit-transform: translateZ(0);
+                transform: translateZ(0);
+                text-rendering: optimizeLegibility;
+                overflow: hidden;
+                touch-action: manipulation;
+                -webkit-user-drag: none;
+                -ms-content-zooming: none;
+                word-wrap: break-word;
+                overscroll-behavior-y: none;
+                -webkit-text-size-adjust: none;
+                -moz-text-size-adjust: none;
+                -ms-text-size-adjust: none;
+                text-size-adjust: none;
+            }
+            body {
+                font-family: 'Lato', sans-serif;
+                font-size: 16px;
+                font-weight: 100;
+                line-height: 24px;
+                color: #777;
+                overflow-x: hidden;
+                margin: auto;
+                background: #fff;
+            }
+            body {
+                margin: 0;
+                font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
+                font-size: 0.875rem;
+                font-weight: 400;
+                line-height: 1.5;
+                color: #868ba1;
+                text-align: left;
+                background-color: #f0f2f7;
+            }
+            html.md {
+                --ion-default-font: "Roboto","Helvetica Neue",sans-serif;
+            }
+            :root {
+                --uk-position-margin-offset: 0px;
+            }
+            :root {
+                --uk-leader-fill-content: .;
+            }
+            :root {
+                --uk-breakpoint-s: 640px;
+                --uk-breakpoint-m: 960px;
+                --uk-breakpoint-l: 1200px;
+                --uk-breakpoint-xl: 1600px;
+            }
